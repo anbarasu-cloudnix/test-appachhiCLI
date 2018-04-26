@@ -15,6 +15,7 @@ class FactorialDemo{
       //Called the user defined function fact
       int factorial = fact(num);
       System.out.println("The  factorial of entered number is: "+factorial);
+      System.out.println("The  factorial of entered number is: "+factorial+factorial);
    }
    static int fact(int n)
    {
