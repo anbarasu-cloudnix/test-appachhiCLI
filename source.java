@@ -29,9 +29,6 @@ import javax.servlet.http.*;
       else if(userAction.equals("CHANGE NAME")){
         nameu(req,res);
       }
-      else if(userAction.equals("CHANGE MOBILE")){
-        mobileu(req,res);
-      }
       else 
       { RequestDispatcher rd=req.getRequestDispatcher("main.jsp");
         if(userAction.equals("reg")){
