@@ -29,9 +29,6 @@ import javax.servlet.http.*;
       else if(userAction.equals("CHANGE NAME")){
         nameu(req,res);
       }
-      else if(userAction.equals("CHANGE PASSWORD")){
-        emailu(req,res);
-      }
       else if(userAction.equals("CHANGE MOBILE")){
         mobileu(req,res);
       }
