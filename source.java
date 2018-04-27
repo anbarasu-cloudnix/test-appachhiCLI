@@ -57,11 +57,6 @@ import javax.servlet.http.*;
           req.setAttribute("file","registration.jsp");
           rd=req.getRequestDispatcher("registration.jsp");
         }
-        else if(userAction.equals("TYPE HERE TO PROCEED")){
-          req.setAttribute("file","login.jsp");
-          rd=req.getRequestDispatcher("main.jsp");
-          
-        }
         rd.forward(req,res);
       } 
     } 
