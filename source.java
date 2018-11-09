@@ -1,7 +1,6 @@
 import java.io.IOException;
 import java.util.*;
 import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
 import p.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
