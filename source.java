@@ -197,6 +197,7 @@ import javax.servlet.http.*;
     HttpSession session=req.getSession(true);
     session.setAttribute("ATT", personlist);
     RequestDispatcher rd=null;
+     RequestDispatcher rd=null;
     if(personlist.size()==0){
       req.setAttribute("wrong","AA");
       rd=req.getRequestDispatcher("as.jsp");
