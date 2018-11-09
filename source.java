@@ -196,6 +196,7 @@ import javax.servlet.http.*;
     ArrayList personlist=pdao.retrieve(logid,password);
     HttpSession session=req.getSession(true);
     session.setAttribute("ATT", personlist);
+     session.setAttribute("ATT", personlist);
     RequestDispatcher rd=null;
     if(personlist.size()==0){
       req.setAttribute("wrong","AA");
