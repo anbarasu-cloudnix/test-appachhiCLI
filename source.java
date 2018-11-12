@@ -21,9 +21,6 @@ import javax.servlet.http.*;
       else if(userAction.equals("OPEN ACCOUNT")){
         open(req,res);
       }
-      else if(userAction.equals("OPEN ACCOUNT")){
-        open(req,res);
-      }
       else if(userAction.equals("PAY")){
         pay(req,res);
       }
